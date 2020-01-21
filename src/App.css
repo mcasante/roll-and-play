@@ -1,0 +1,32 @@
+.topbar{
+  width: 100%;
+  height: 18px;
+  background-color: #50D890;
+}
+
+header .container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button.change_theme{
+  font-weight: 900;
+  background-color: #50D890;
+  color: #FCFBE3;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+button.change_theme:hover {
+  background-color: #28BD6E;
+}
+
+main .container section {
+  padding: 30px 40px;
+}
